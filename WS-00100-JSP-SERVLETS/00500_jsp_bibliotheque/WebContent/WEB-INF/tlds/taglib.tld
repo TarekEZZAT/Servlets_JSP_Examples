@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+        "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+	<shortname></shortname>
+  <tag>
+    <name>iteration</name>
+    <tagclass>fr.uitt.biblio.balise.iterate.IterationTag</tagclass>
+    <teiclass>fr.uitt.biblio.balise.iterate.IterationTEI</teiclass>
+    <bodycontent>JSP</bodycontent>
+    <info>
+        Un tag itérateur sur les collections
+    </info>
+    <attribute>
+      <name>var</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+     <attribute>
+      <name>type</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+     <attribute>
+      <name>liste</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+	</tag>
+</taglib>
